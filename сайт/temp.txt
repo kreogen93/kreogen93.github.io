@@ -1,0 +1,131 @@
+    <div class="contentblocks">
+      <div class = "container-md theme-list py-3 pl-0 mb-3" id="links">
+        <h2 class="text-center">Гиперссылки</h2>
+        <ol>
+            <li><a href="http://www.kubsu.ru/">КубГУ</a></li>
+            <li><a href="https://www.kubsu.ru/">КубГУ https</a></li>
+            <li><a href="ftp://randomserver.ru/temp/file.txt">FTP</a></li>
+            <li><a href="ftp://user:pass@randomserver.ru/temp2/file.txt">FTP с авторизацией</a></li>
+            <li><a href="http://www.kubsu.ru/#main-content">КубГУ якорь #main-content</a></li>
+            <li><a href="#author">Вниз</a></li>
+            <li><a href="https://www.google.com/search?ei=react&q=react">React</a></li>
+            <li>Навигация КубГУ
+                <ul>
+                    <li><a href="http://www.kubsu.ru/" title="Главная">Главная</a></li>
+                    <li><a href="https://www.kubsu.ru/ru/university" title="Университет">Университет</a></li>
+                    <li><a href="https://www.kubsu.ru/ru/education" title="ВУЗ с лучшими традициями классического образования">Образование</a></li>
+                    <li><a href="https://www.kubsu.ru/ru/science" title="Наука и инновации">Наука</a></li>
+                    <li><a href="https://www.kubsu.ru/ru/abiturient" title="Добро пожаловать!">Абитуриентам</a></li>
+                    <li><a href="https://www.kubsu.ru/ru/studlife" title="Студенческая жизнь">Студентам</a></li>
+                </ul>
+            </li>
+            <li><a title="ссылка без href">Ссылка без href</a></li>
+            <li><a href="" title="ссылка с пустым href">Ссылка с пустым href</a></li>
+            <li><a href="https://fomil.tk" rel="nofollow">Ссылка, по которой запрещен переход поисковикам</a></li>
+            <li><a href="https://fomil.tk" rel="nofollow"><!--noindex-->Текст, запрещённый к индексированию<!--/noindex--></a></li>
+            <li>Полиморфизм в языках программирования и <a href="https://ru.wikipedia.org/wiki/%D0%A2%D0%B5%D0%BE%D1%80%D0%B8%D1%8F_%D1%82%D0%B8%D0%BF%D0%BE%D0%B2">теории типов</a> — способность <a href="https://ru.wikipedia.org/wiki/%D0%A4%D1%83%D0%BD%D0%BA%D1%86%D0%B8%D1%8F_(%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5)">функции</a> обрабатывать данные разных типов.</li>
+            <li><a href="https://youtu.be/y6120QOlsfU?t=34"><img src="https://avatars.mds.yandex.net/get-pdb/2500240/758240e2-51ac-41fb-98e6-dd480ba0879a/s1200?webp=false" alt="Картинка с Лосяшем" height ="128"></a></li>
+            <li>
+                <img src="https://pngimg.com/uploads/lg_logo/lg_logo_PNG2.png" alt="Картинка с лыжами" usemap = "#LG" height ="264">
+                <map name="LG">
+                    <area shape="circle" coords="134,134,132" href="https://www.lg.com/ru" alt="Left logo circle part">
+                    <area shape="rect" coords="272,90,436,183" href="https://www.lg.com/ru" alt="LG">
+                </map>
+            </li>   
+            <li><a href="./index.html">в текущем каталоге</a></li>
+            <li><a href="./about/index.html">в каталоге about</a></li>
+            <li><a href="../index.html">в каталоге на 1 уровень выше</a></li>
+            <li><a href="../../index.html">на 2 уровня выше</a></li>
+            <li><a href="/"> Сокращенная ссылка на главную </a></li>
+            <li><a href="/glob">Сокращенная ссылка на внутреннюю </a></li>
+        </ol>
+      </div>
+  
+      <div class="container-md theme-list py-3 pl-0 mb-3">
+        <div class= "col-12 px-0">
+          <div class = "container-md theme-list py-3 mb-3">
+            <h2 class="h2" class="contentblock" id="table">Таблица</h2>
+            <table class= "table table-striped table-bordered table-hover table-sm">
+                <tr class="thead-dark">
+                    <th scope = "col">Колонка 1</th>
+                    <th scope = "col">Колонка 2</th>
+                    <th scope = "col">Колонка 3</th>
+                    <th scope = "col">Колонка 4</th>
+                </tr>
+                <tr class="table-light">
+                    <td colspan="2">Ячейка 11 объединенная с 12</td>
+                    <td colspan="2">Ячейка 13 объединенная с 14</td>
+                </tr>
+                <tr class="table-active">
+                    <td>Ячейка 21</td>
+                    <td colspan="2">Ячейка 22 объединенная с 23</td>
+                    <td>Ячейка 24</td>
+                </tr>
+                <tr class="table-light">
+                    <td>Ячейка 31</td>
+                    <td>Ячейка 32</td>
+                    <td>Ячейка 33</td>
+                    <td>Ячейка 34</td>  
+                </tr>
+                <tr class="table-active">
+                    <td colspan="4">Ячейка 41 объединенная с ячейками 42, 43 и 44</td>
+                </tr>
+                <tr class="table-light">
+                    <td>Ячейка 51</td>
+                    <td colspan="3">Ячейка 52 объединенная с 53 и 54</td>
+                </tr>
+            </table>
+          </div>
+        </div>
+      </div>
+      
+      <div class = "col-12 order-first order-md-2 px-0"> 
+        <div class = "container-md theme-list py-3 mb-3">
+          <h2 class="h2" class="contentblock" id="form">Форма</h2>
+          <form action="URL_отправки_данных" method="POST" class="form">
+              <label>Имя:<br />
+                  <input name="YourName" value="Ваше имя" />
+              </label>
+              <br />
+              <label>Email:<br />
+                  <input name="YourEmail" value="Ваш Email" type="email" />
+              </label>
+              <br />
+              <label>Дата рождения:<br />
+                  <input name="Birthdate" value="2004-02-12" type="date" />
+              </label>
+              <br />
+              <div class = "choicebox">
+                  <div class="choice1">
+                      Пол:<br />
+                      <label><input type="radio" name="s" value="Male" />М</label>
+                      <label><input type="radio" name="s" value="Female" />Ж</label>
+                      <br />
+                  </div>
+                  <div class="choice2">
+                      Кол-во конечностей:<br />
+                      <label><input type="radio" name="limbs" value="1" />1</label>
+                      <label><input type="radio" name="limbs" value="2" />2</label>
+                      <label><input type="radio" name="limbs" value="3" />3</label>
+                      <label><input type="radio" name="limbs" value="4" />4</label>
+                      <br />
+                  </div>
+              </div>
+              <label>Сверхспособности:<br />
+                  <select multiple="multiple">
+                      <option>Бессмертие</option>
+                      <option>Левитация</option>
+                      <option>Хождение сквозь стены</option>
+                      <option>Сведение "на слух"</option>
+                      <option>Разработка музыкального софта</option>
+                  </select>
+              </label><br />
+              <label>Биография:<br />
+                  <textarea placeholder="О себе"></textarea>
+                </label><br />
+                <label><input type="checkbox">С контрактом ознакомлен(-а)</label><br />
+                <input type="button" value="Submit">
+              </form>
+        </div>
+      </div>
+    </div>
